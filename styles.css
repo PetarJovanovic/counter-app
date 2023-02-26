@@ -62,9 +62,14 @@ img {
   font-size: 4rem;
 }
 
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
 .buttons button {
-  padding: 1rem;
-  margin: 0 1rem;
+  padding: 1.5rem 0.75rem;
   font-size: 1.5rem;
   color: var(--white);
   font-weight: 700;
@@ -72,6 +77,10 @@ img {
   border: none;
   outline: none;
   border-radius: 5px;
+
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
 }
 
 button.subtract {
